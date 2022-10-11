@@ -9,6 +9,7 @@ import Products from '../pages/Products';
 
 function Page() {
     return (
+      // TODO: move router to App.js
       <div className="Page">
             <div className="line"></div>
             <Router>

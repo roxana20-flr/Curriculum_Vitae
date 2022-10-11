@@ -3,6 +3,7 @@ import './App.css';
 
 function App() {
   return (
+    // TODO: add router, and import <App /> in index.js
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
