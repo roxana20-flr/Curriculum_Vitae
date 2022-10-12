@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+import { HashRouter as Router, Routes, Route, Redirect } from 'react-router-dom';
 import './App.css';
+import Navbar from "./components/sidebar/Navbar";
+import Home from './components/pages/Home';
+import Reports from './components/pages/Reporst';
+import Products from './components/pages/Products';
+import Page from "./components/main_page/Page"
 
 function App() {
   return (
     // TODO: add router, and import <App /> in index.js
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Router>
+        <Navbar />
+        <Routes>
+        {/* <Route
+                path="/"
+                render={() => {
+                    return (
+                      <Redirect to="/" /> 
+                    )
+                }}
+              /> */}
+          <Route path='/' exact element={<Page />} />
+          <Route path='/reports' element={<Reports />} />
+          <Route path='/products' element={<Products />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
