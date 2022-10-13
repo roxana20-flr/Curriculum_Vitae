@@ -17,10 +17,49 @@ function Navbar() {
           </Link>
         </div>
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
-          <ul className='nav-menu-items' onClick={showSidebar}>
+          <table className="table">
+            <tr className="x-tr">
+                <td></td>
+                <td>
+                <div className='nav-menu-items' onClick={showSidebar}>
+                  <div className='navbar-toggle'>
+                    <Link to='#' className='menu-bars-x' >
+                      <span className='x'>&times;</span>
+                    </Link>
+                  </div>
+                </div>
+                </td>
+            </tr>
+            <tr>
+              <td>
+            {SidebarData.map((item, index) => {
+                  return (
+                    <td key={index} className={item.cName}>
+                      <Link to={item.path}>
+                        <span>00{index}</span>
+                      </Link>
+                    </td>
+                );
+            })}
+            </td>
+            <td>
+                {SidebarData.map((item, index) => {
+                  return (
+                    <td key={index} className={item.cName}>
+                      <Link to={item.path}>
+                        <span>{item.title}</span>
+                      </Link>
+                    </td>
+                );
+            })}
+            </td>
+            </tr>
+          </table>
+
+          {/* <ul className='nav-menu-items' onClick={showSidebar}>
             <li className='navbar-toggle'>
-              <Link to='#' className='menu-bars-x '>
-                <h2>X</h2>
+              <Link to='#' className='menu-bars-x' >
+              <span className='x'>&times;</span>
               </Link>
             </li>
             {SidebarData.map((item, index) => {
@@ -32,7 +71,7 @@ function Navbar() {
                 </li>
               );
             })}
-          </ul>
+          </ul> */}
         </nav>
       </div>
     </>

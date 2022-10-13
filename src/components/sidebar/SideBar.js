@@ -2,32 +2,32 @@ import React from 'react';
 
 export const SidebarData = [
   {
-    title: 'Home',
+    title: 'HOME',
     path: '/',
     cName: 'nav-text'
   },
   {
-    title: 'Reports',
+    title: 'REPORTS',
     path: '/reports',
     cName: 'nav-text'
   },
   {
-    title: 'Products',
+    title: 'PRODUCTS',
     path: '/products',
     cName: 'nav-text'
   },
   {
-    title: 'Team',
+    title: 'TEAM',
     path: '/team',
     cName: 'nav-text'
   },
   {
-    title: 'Messages',
+    title: 'MESSAGES',
     path: '/messages',
     cName: 'nav-text'
   },
   {
-    title: 'Support',
+    title: 'SUPPORTS',
     path: '/support',
     cName: 'nav-text'
   }
