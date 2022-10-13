@@ -77,7 +77,7 @@
     height: 90px;
     display: flex;
     position:relative;
-    left: 70%;
+    left: 60%;
     /* justify-content: start; */
     /* text-align: right; */
   }
@@ -93,6 +93,7 @@
     height: 10vw;
     line-height: 100px;
     position:relative;
+
   }
 
   .table{
@@ -104,9 +105,8 @@
   td  {
     /* border: solid black; */
     overflow: hidden;
-    display: inline-block;
+    /* display: inline-block; */
     white-space: nowrap;
-    width: 45%;
     margin-bottom: 20px
   }
 

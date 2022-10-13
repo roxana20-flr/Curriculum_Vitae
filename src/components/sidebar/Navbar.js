@@ -34,7 +34,7 @@ function Navbar() {
               <td>
             {SidebarData.map((item, index) => {
                   return (
-                    <td key={index} className={item.cName}>
+                    <td key={index} className={item.cName} onClick={showSidebar}>
                       <Link to={item.path}>
                         <span>00{index}</span>
                       </Link>
@@ -45,7 +45,7 @@ function Navbar() {
             <td>
                 {SidebarData.map((item, index) => {
                   return (
-                    <td key={index} className={item.cName}>
+                    <td key={index} className={item.cName} onClick={showSidebar}>
                       <Link to={item.path}>
                         <span>{item.title}</span>
                       </Link>

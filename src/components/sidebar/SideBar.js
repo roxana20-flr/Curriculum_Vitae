@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 export const SidebarData = [
   {
@@ -7,8 +7,8 @@ export const SidebarData = [
     cName: 'nav-text'
   },
   {
-    title: 'REPORTS',
-    path: '/reports',
+    title: 'MY WORK',
+    path: '/mywork',
     cName: 'nav-text'
   },
   {
