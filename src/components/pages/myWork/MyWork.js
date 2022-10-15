@@ -1,5 +1,5 @@
 import HeaderMyWork from "./headerMyWork/HeaderMyWork";
-import BodyMyWork from "../myWork/bodyMyWork/BodyMyWork";
+import ProjectsMyWork from "../myWork/projectsMyWork/ProjectsMyWork";
 import "./MyWork.css";
 
 
@@ -9,7 +9,7 @@ function MyWork() {
     return(
         <div className="MyWork">
             <HeaderMyWork />
-            <BodyMyWork/>
+            <ProjectsMyWork/>
         </div>
      );
  };

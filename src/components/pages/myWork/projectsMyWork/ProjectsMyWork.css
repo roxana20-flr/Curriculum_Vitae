@@ -19,8 +19,9 @@
     display:table;
     /* grid-auto-flow: row dense; */
 
-    .BodyMyWork {
+    .ProjectsMyWork {
   display: inline-grid;
+  /* background-color: black; */
 }
 /* .BodyMyWork :nth-child(4) {
   grid-column-start: 2;
@@ -37,7 +38,7 @@
         grid-column-start: span 2; */
       
    
-    .BodyMyWork {
+    .ProjectsMyWork {
         width: 300px;
         aspect-ratio: 1;
         grid-gap: 10px;
@@ -45,9 +46,10 @@
         /* vertical-align: top; */
         margin: 40px;
       }
-      .BodyMyWork *{
-        border: 2px solid;
+      .ProjectsMyWork *{
+        /* border: 2px solid; */
         font-size: 30px;
+        font-family: "Lucida Handwriting", cursive;
         /* box-sizing: border-box; */
         /* font-family: sans-serif; */
         /* display: grid; */
@@ -71,8 +73,31 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}  */
 
-.BodyMyWork-text{
+.ProjectsMyWork-text{
     color: white;
+}
+
+p {
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.ProjectsMyWork-p-code{
+  margin-top: 0;
+  font-size: 25px;
+}
+
+.ProjectsMyWork-link-code{
+  text-align: left;
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #E4C17C;
+  /* border: 2px solid; */
+  width: 50%;
+  height: 50%;
 }
 
 /* @media screen and (min-width: 0) and (max-width: 2087px) and (orientation: portrait)
