@@ -1,0 +1,59 @@
+
+
+    .InformationMyWork {
+        display: inline-grid;
+      }
+            
+         
+          .InformationMyWork {
+            width: 350px;
+            height: 250px;
+            aspect-ratio: 1;
+            grid-gap: 10px;
+            box-shadow: -2px 0px 2px 5px rgba(255,255,255,0.19);
+            margin: 20px;
+            }
+            .InformationMyWork *{
+              font-size: 30px;
+              font-family: "Lucida Handwriting", cursive;
+            }
+
+      .InformationMyWorkText{
+          color: white;
+      }
+      
+      p {
+        text-align: left;
+        margin-left: 10px;
+        margin-bottom: 0;
+      }
+      
+      .InformationMyWorkPCode{
+        margin-top: 0;
+        font-size: 25px;
+      }
+      
+      .InformationMyWorkLinkCode{
+        text-align: left;
+        margin-left: 10px;
+        text-decoration: none;
+        font-size: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+        color: #E4C17C;
+        width: 50%;
+        height: 50%;
+      }
+      
+      
+      /* .InformationMyWorkText{
+        background-color: black;
+        color: white;
+        padding-bottom: 40px;
+        padding-top: 70px;
+        padding-right: 40px;
+        padding-left: 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-right: 90px;
+        margin-left: 90px;
+      } */

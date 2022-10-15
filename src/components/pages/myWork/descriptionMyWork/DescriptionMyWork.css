@@ -1,0 +1,45 @@
+.DescriptionMyWork{
+    /* background-color: white; */
+    z-index: 0;
+}
+
+.DescriptionMyWork1 {
+    display: inline-grid;
+}
+
+.DescriptionMyWork1 {
+    width: 35vw;
+    aspect-ratio: 1;
+    /* grid-gap: 5px; */
+    /* outline: 2px solid red; */
+    vertical-align: top;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    /* background-color: black; */
+  }
+  .DescriptionMyWork1 *{
+    /* border: 2px solid; */
+    font-size: 30px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: grid;
+    place-content: center;
+  }
+
+  img{
+    height: 76vh;
+    width: 100%;
+  }
+  
+
+  .DescriptionMyWorkText{
+    color: white;
+    font-size: 30px;
+    font-family: "Lucida Handwriting", cursive;
+  }
+
+  
+
+  

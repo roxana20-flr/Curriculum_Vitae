@@ -10,20 +10,22 @@ function ProjectsMyWork() {
         <div >
             {ProjectsMyWorkData.map((item, index) => {
                 return (
-                    <div className="ProjectsMyWork-text col-4 ProjectsMyWork" key={index}  >
+                    <div className="ProjectsMyWorkText  ProjectsMyWork" key={index}  >
                        <div> 
                             <p>{item.title}</p>
-                            <p className="ProjectsMyWork-p-code">{item.subtitle}</p>
+                            <p className="ProjectsMyWorkPCode">{item.subtitle}</p>
                         </div>
                         <br/>
                         <br/>
-                        <Link className="ProjectsMyWork-link-code" to={item.path}>
+                        <Link className="ProjectsMyWorkLinkCode" to={item.path}>
                             {item.code}
                         </Link>
-
                     </div>  
                 );
             })}
+            <div className="ProjectsMyWorktext">
+                Start with the font you want, and always end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available.
+            </div>
         </div>  
      );
  };
