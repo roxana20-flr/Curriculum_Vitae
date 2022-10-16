@@ -12,7 +12,7 @@ function DescriptionMyWork() {
             <img src={img7} />
         </div> 
         <div className="DescriptionMyWork1 col-6">
-            <p className="DescriptionMyWorkText">Start with the font you want, and always end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available.</p>
+            <p className="DescriptionMyWorkText">Programming is the process of creating a set of instructions that tell a computer how to perform a task. So you have to be careful what are the instructions given to a computer.</p>
         </div> 
         </div>  
         </div>

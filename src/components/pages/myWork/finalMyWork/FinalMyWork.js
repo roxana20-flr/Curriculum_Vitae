@@ -8,9 +8,12 @@ function FinalMyWork() {
       <Parallax className='FinalMyWork' >
         <div className="layerFinalMyWork">
             <div className="finalmywork">
-                <h1 className="titluFinalMyWork">Final My Work</h1>
-                <p className="textFinalMyWork">To reduce the number of requests to the server, importing images that are less than 10,000 bytes returns a data URI instead of a path. This applies to the following file extensions: bmp, gif, jpg, jpeg, and png. SVG files are excluded due to #1153. You can control the 10,000 byte threshold by setting the IMAGE_INLINE_SIZE_LIMIT environment variable as documented in our advanced configuration.
-                </p>
+                <h1 className="titluFinalMyWork">Thoughts</h1>
+                <div>
+                <p className="textFinalMyWork">Thomas Edison: “Opportunity is missed by most people because it is dressed in overalls and looks like work.” </p>
+                <p className="textFinalMyWork">Steve Jobs: “The only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle.”</p>
+                <p className="textFinalMyWork">Roxana Florina Savu: “...”</p>
+                </div>
             </div>
         </div>
   </Parallax>

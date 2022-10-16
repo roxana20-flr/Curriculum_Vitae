@@ -4,8 +4,10 @@ import "./Hobby.css";
 function Hobby() {
     return (
       <div className="Hobby">
+        <div className="layerHobby">
             <div className="line"></div>
-            <h1 className="name">Savu Roxana Florina</h1>
+            <h1 className="nameHobby">Hobby</h1>
+          </div>
       </div>
     );
   }

@@ -17,14 +17,14 @@ function ProjectsMyWork() {
                         </div>
                         <br/>
                         <br/>
-                        <Link className="ProjectsMyWorkLinkCode" to={item.path}>
+                        <a className="ProjectsMyWorkLinkCode" href={item.path}>
                             {item.code}
-                        </Link>
+                        </a>
                     </div>  
                 );
             })}
             <div className="ProjectsMyWorktext">
-                Start with the font you want, and always end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
             </div>
         </div>  
      );

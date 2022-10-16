@@ -26,7 +26,7 @@ const Footer = () => {
 
                     <div className="FooterMyWorkText  FooterMyWork"  >
                        <div> 
-                            <p>SRF</p>
+                            <p className="footerMyWorkText">SRF</p>
                         </div>
                     </div>  
 

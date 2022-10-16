@@ -4,8 +4,10 @@ import "./Story.css";
 function Story() {
     return (
       <div className="Story">
+        <div className="layerStory">
             <div className="line"></div>
-            <h1 className="name">Savu Roxana Florina</h1>
+            <h1 className="nameStory">Story</h1>
+            </div>
       </div>
     );
   }
