@@ -12,23 +12,13 @@ export const SidebarData = [
     cName: 'nav-text'
   },
   {
-    title: 'PRODUCTS',
+    title: 'STORY',
     path: '/products',
     cName: 'nav-text'
   },
   {
-    title: 'TEAM',
+    title: 'HOBBY',
     path: '/team',
-    cName: 'nav-text'
-  },
-  {
-    title: 'MESSAGES',
-    path: '/messages',
-    cName: 'nav-text'
-  },
-  {
-    title: 'SUPPORTS',
-    path: '/support',
     cName: 'nav-text'
   }
 ];
