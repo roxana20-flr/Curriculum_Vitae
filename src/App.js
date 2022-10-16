@@ -1,15 +1,13 @@
 import { HashRouter as Router, Routes, Route, Redirect } from 'react-router-dom';
 import './App.css';
 import Navbar from "./components/sidebar/Navbar";
-import Home from './components/pages/Home';
-import Reports from './components/pages/Reporst';
-import Products from './components/pages/Products';
+import Story from './components/pages/story/Story';
+import Hobby from './components/pages/hobby/Hobby';
 import MyWork from './components/pages/myWork/MyWork';
 import Page from "./components/main_page/Page"
 
 function App() {
   return (
-    // TODO: add router, and import <App /> in index.js
     <div className="App">
       
       <Router>
@@ -25,7 +23,8 @@ function App() {
               /> */}
           <Route path='/' exact element={<Page />} />
           <Route path='/mywork' element={<MyWork />} />
-          <Route path='/products' element={<Products />} />
+          <Route path='/story' element={<Story />} />
+          <Route path='/hobby' element={<Hobby />} />
         </Routes>
       </Router>
     </div>

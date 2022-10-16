@@ -1,0 +1,50 @@
+.Hobby{
+    text-align: center;
+    position: fixed;
+    background-image: url("./img1.jpg");
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: fixed;
+    /* background-color: black; */
+}
+
+.name{
+    color: white;
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 10vw;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    font-weight: lighter;
+}
+
+.line {
+	background: white;
+	width: 0.3vw;
+    height: 100px;
+    position: fixed;
+    top: -20%;
+    left: 85%;
+    animation: grow 4s forwards infinite;
+}
+
+
+@keyframes grow {
+0% {
+    top: -20%;
+}
+
+50% {
+    top: -6%;
+}
+
+0% {
+    top: -20%;
+}
+}
+
+
+
+
+

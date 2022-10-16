@@ -13,12 +13,12 @@ export const SidebarData = [
   },
   {
     title: 'STORY',
-    path: '/products',
+    path: '/story',
     cName: 'nav-text'
   },
   {
     title: 'HOBBY',
-    path: '/team',
+    path: '/hobby',
     cName: 'nav-text'
   }
 ];
